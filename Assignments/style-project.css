@@ -1,0 +1,48 @@
+@charset "UTF-8"; 
+
+body{
+    background-color: #F0F0F2
+}
+
+h1{
+    color:#4A4C59;
+    text-align: center;
+}
+
+h3{
+    color:#4A4C59;
+    text-align: center;
+}
+
+p{
+    color:#4A4C59;
+    text-align: center;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    background-color: #83818C;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    background-color: #cd92f7;
+    color: white;
+  }
