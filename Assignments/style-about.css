@@ -1,14 +1,22 @@
 @charset "UTF-8";
 
+
 body{
     background-color: #F0F0F2
 }
 
-h1{color:#4A4C59}
+/* colour the first heading*/
+h1{
+    color:#4A4C59;
+    text-align: center;
+}
 
 h3{color:#4A4C59}
 
-p{color:#4A4C59}
+p{
+    color:#4A4C59;
+    text-align: center;
+}
 
 /* NAVIGATION BAR */
 .navbar {
@@ -36,4 +44,15 @@ p{color:#4A4C59}
   .navbar a.active {
     background-color: #cd92f7;
     color: white;
+  }
+
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#83818C;
+    color: white;
+    text-align: center;
   }

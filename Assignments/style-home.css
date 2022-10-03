@@ -2,6 +2,7 @@
 
 body{
     background-color: #F0F0F2
+    
 }
 
 h1{
@@ -37,16 +38,17 @@ p{
   
   /* Add a color to the active/current link */
   .navbar a.active {
-    background-color: #cd92f7;
+    background-image: linear-gradient(#cd92f7, rgb(132, 66, 238));
     color: white;
   }
 
   .footer {
     position: fixed;
+    color: #f2f2f2;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color:#83818C;
-    color: white;
     text-align: center;
+
   }
