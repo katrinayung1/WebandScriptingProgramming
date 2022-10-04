@@ -1,18 +1,26 @@
-@charset "UTF-8"; 
+@charset "UTF-8";
 
 body{
     background-color: #F0F0F2
-    
 }
 
 h1{
+    color:#4A4C59;
+    text-align: center;
+    font-size: 60px;
+}
+
+h3{
   color:#4A4C59;
   text-align: center;
 }
 
+
 p{
   color:#4A4C59;
-  text-align: center;}
+  text-align: center;
+  font-size: 20px;
+}
 
 /* NAVIGATION BAR */
 .navbar {
@@ -38,17 +46,31 @@ p{
   
   /* Add a color to the active/current link */
   .navbar a.active {
-    background-image: linear-gradient(#cd92f7, rgb(132, 66, 238));
+    background-color: #cd92f7;
+    background-image: linear-gradient(#cd92f7, rgb(136, 52, 238));
     color: white;
   }
 
+  /*FORM*/
+  .form{
+    background-color: #f2f2f2;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
   .footer {
     position: fixed;
-    color: #f2f2f2;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color:#83818C;
+    color: white;
     text-align: center;
-
   }
