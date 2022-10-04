@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>          
+      <!--This is the title-->         
       <title>Contact</title>
+      <!--Style sheet for full size laptop screen-->
       <link href="style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+      <!--Style sheet for full size tablet screen-->
       <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
-      <link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)"> 
+      <!--Style sheet for full size mobile screen-->
+      <link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
     </head>
 <body> 
   <div id="wrapper"> 
-    
-    <div class="navbar">
+     <!--This is the navigation bar-->
+     <div class="navbar">
+      <!--Tab for home page-->
       <a class="active" href="home.html">Home</a>
+      <!--Tab for contact me page-->
       <a href="contact.html">Contact</a>
+      <!--Tab for projects page-->
       <a href="projects.html">Projects</a>
+      <!--Tab for about me page-->
       <a href="about.html">About Me</a>
     </div>
-
+    <!--Title for Contact me-->
     <h1>Contact Me!</h1>
     <title>Form</title>
+    <!--Style sheet for Contact me page>-->
 <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="wrapper">
+  <!--Form for Contact me page-->
   <div class="form">
+    <!--Send form to my email-->
     <form action=mailto:katrina.yung@ontariotechu.net ?subject=Signup Form method="post" enctype="text/plain" name="form">
       <p>
+      <!--Section for user to insert their name-->
       <label for="name">Name</label>
       <input type="text" name="name" placeholder="Enter your Name" size="40" required>
       </p>   
       <p>
+          <!--Section for user to insert their email-->
           <label for="email">Email</label>
           <input name="email" type="email" size="40" required>
       </p> 
       <p>
+          <!--Section for user to insert any comments-->
           <label for="comments">Comments?</label><br>
           <textarea name="comments" cols="40" rows="6"></textarea>
       </p>
-  
+      <!--Submit button-->
       <p><input type="submit" value="Click here to submit the form"/></p>
+      <!--Reset button-->
       <p><input type="reset" value="Click here to reset the form"/></p>
-  </div>
-
-
-     
-     
-            
-</form>
-   
+    </div>          
+</form> 
 </body>
+<!--Footer for Contact page-->
 <div class ="footer">
   <h4>© 2022 by Katrina yung </h4>
 </html>

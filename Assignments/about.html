@@ -12,23 +12,32 @@
 </head>
 <body> 
   <div id="wrapper"> 
-    
+    <!--This is the navigation bar-->
     <div class="navbar">
+      <!--Tab for home page-->
       <a class="active" href="home.html">Home</a>
+      <!--Tab for contact me page-->
       <a href="contact.html">Contact</a>
+      <!--Tab for projects page-->
       <a href="projects.html">Projects</a>
+      <!--Tab for about me page-->
       <a href="about.html">About Me</a>
     </div>
-
+    <!--Title for about me-->
     <h1>About Me!</h1>
+    <!--parargaph text for about me-->
     <p>Hello! My name is Katrina. I am second year student at Ontario Tech University. I am currently studying Networking and IT Security. </p>
+    <!--inserting picture of me-->
     <img src="IMG-9635.jpg" style="width:220px;height:300px;" class="center">
+    <!--description text of my video-->
     <p>Here is a video of my three dogs!</p>
+    <!--insert video of my dogs-->
     <video width="320" height="240" controls preload="auto" autoplay loop muted poster="dawgs.png" id="video" class = center>
         <source src="recorded-309932940797.MOV" type="video/mp4">
         <source src="recorded-309932940797.MOV" type="video/ogg">
     </video>
   <br>
+  <!--create play and pause button-->
   <button class = center onclick="playPause()">Play/Pause</button>
   <script>
   var myVideo=document.getElementById("video");
@@ -41,6 +50,7 @@
   </script>
   </div>
 </body>
+<!--This is my footer-->
 <div class ="footer">
   <h4>© 2022 by Katrina yung </h4>
 </html>

@@ -1,37 +1,39 @@
 @charset "UTF-8";
 
-
+/*Style for body*/
 body{
     background-color: #F0F0F2;
     height: 100%
 }
 
+/*Style for heading 1*/
 h1{
     color:#4A4C59;
     text-align: center;
     font-size: 60px;
 }
 
+/*Style for heading 3*/
 h3{
   color:#4A4C59;
   text-align: center;
 }
 
-
+/*Style for paragraphs*/
 p{
   color:#4A4C59;
   text-align: center;
   font-size: 20px;
 }
 
-/* NAVIGATION BAR */
+/* Style for Navigation Bar*/
 .navbar {
     background-color: #83818C;
     border-radius: 30px;
     overflow: hidden;
   }
   
-  /* Style the links inside the navigation bar */
+  /* Style for links in navigation bar*/
   .navbar a {
     float: right;
     color: #f2f2f2;
@@ -42,7 +44,7 @@ p{
     border-radius: 30px;
   }
   
-  /* Change the color of links on hover */
+  /* Make tabs a different color when mouse hovers over tab*/
   .navbar a:hover {
     background-color: #ddd;
     border-radius: 30px;
@@ -50,14 +52,14 @@ p{
 
   }
   
-  /* Add a color to the active/current link */
+  /* Make active link colored */
   .navbar a.active {
     background-image: linear-gradient(#adeeef, rgb(136, 52, 238));
     border-radius: 30px;
     color: white;
   }
 
-  /*FORM*/
+  /*Style for form*/
   .form{
     background-image: linear-gradient(45deg, #adeeef, rgb(136, 52, 238));
     text-align: center;
@@ -66,7 +68,7 @@ p{
     margin-right: 30%;
     margin-left: 30%;
   }
-
+  /*Style for all center classes (image, video, and button)*/
   .center {
     display:block;
     margin-left: auto;
@@ -74,7 +76,7 @@ p{
     width: 50%;
   }
   
-
+/*Style for footer*/ 
   .footer {
     position: fixed;
     height: 100px;
